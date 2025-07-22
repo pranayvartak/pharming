@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DatatableforusersComponent } from './datatableforusers/datatableforusers.component';
 import { ManageusersComponent } from './manageusers/manageusers.component';
+import { UserprofileComponent } from './userprofile/userprofile.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ManageusersComponent } from './manageusers/manageusers.component';
     SignupComponent,
     DashboardComponent,
     DatatableforusersComponent,
-    ManageusersComponent
+    ManageusersComponent,
+    UserprofileComponent
   ],
   imports: [
     BrowserModule,
