@@ -1,0 +1,25 @@
+
+<div class="container   my-5 shadow-sm">
+    <div class="row d-flex align-items-center">
+        <div class="col-md">
+            <app-signin *ngIf="a"></app-signin>
+            <app-signup *ngIf="!a"></app-signup>
+        </div>
+        <div style="height: 85vh;" class="col-md bg-success bg-gradient">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        
+                        <div class="input-group">
+                            <button (click)="a=!a" class="shadow btn btn-success" [disabled]="a">SignIn</button>
+                            <button (click)="a=!a" class="shadow btn btn-success" [disabled]="!a">Signup</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div> 
+

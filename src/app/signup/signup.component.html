@@ -1,0 +1,37 @@
+<div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="text-center h1">
+                            Sign Up
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <input type="text" [(ngModel)]="user.username"  name="username" placeholder="username" id="username"
+                            class="py-3 my-2 form-control bg-secondary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <input type="password" [(ngModel)]="user.password" name="password" placeholder="password" id="password"
+                            class="py-3 my-2 form-control bg-secondary">
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <input type="email" [(ngModel)]="user.email"  name="email" placeholder="email" id="email"
+                            class="py-3 my-2 form-control bg-secondary">
+
+                    </div>
+                </div>
+
+                
+                
+                <div class="row">
+                    <div class="col-md">
+                        <button (click)="signup()" class="btn btn-warning col-md-12 py-3 my-2">SignUp</button>
+                    </div>
+                </div>
+            </div>

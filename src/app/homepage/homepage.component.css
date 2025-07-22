@@ -1,0 +1,23 @@
+/* #apply{
+    background-color: rgb(28, 86, 186);
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+    border: none;
+}
+
+#apply:hover{
+    background-color: rgb(94, 132, 197);
+
+}
+
+#search{
+    width:100vw;
+    margin: 5vh;
+    padding: 1vh;
+    font-size: 1.5vw;
+    border: 3px solid rgb(193, 189, 189);
+    font-family: cursive;
+
+} */
